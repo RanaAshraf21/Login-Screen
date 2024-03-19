@@ -23,7 +23,7 @@ class _LoginDemoState extends State<LoginDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(253, 252, 252, 0),
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
           "LOGIN App",
@@ -89,10 +89,10 @@ class _LoginDemoState extends State<LoginDemo> {
                   ),
                
             Padding(
-              padding: const EdgeInsets.only(top:20),
+              padding: const EdgeInsets.all(20),
               child: SizedBox(
                 height:50,
-                width: 390,
+                width: 340,
                 child: Container(
                   // Set the background color of the login button to blue
                   child: ElevatedButton(
